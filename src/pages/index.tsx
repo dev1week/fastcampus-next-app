@@ -1,10 +1,11 @@
+import Layout from "@/component/Layout";
 import Link from "next/link";
 
 
 export default function Home(){
 
 return(
-  <div>
+  <Layout>
     <h1>Map Index Page</h1>
     <ul>
       <li>
@@ -31,7 +32,7 @@ return(
     </ul>
 
 
-  </div>
+  </Layout>
 )
 
 }
